@@ -1,3 +1,39 @@
+/* Contact Form */
+.contact-form {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(44, 62, 80, 0.08);
+}
+.contact-form .form-label {
+  font-weight: 500;
+  color: #7c3bed;
+}
+.contact-form .form-control {
+  background: #faf8ff;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 1.05rem;
+  padding: 0.8rem 1.1rem;
+  margin-bottom: 0.5rem;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+.contact-form .form-control:focus {
+  border: 1.5px solid #a084e8;
+  box-shadow: 0 0 0 0.1rem #e9d8fd;
+}
+.contact-form button[type="submit"] {
+  border: none;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 12px 0 #e9d8fd;
+}
+.contact-form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #a084e8, #7c3bed);
+  color: #fff;
+}
 /* Core Values Cards */
 .core-value-card {
   background: #faf8ff;
