@@ -32,7 +32,7 @@
         </div>
         <div class="d-flex justify-content-center gap-3" data-aos="zoom-in" data-aos-delay="400">
             <button class="btn btn-outline-light fw-semibold">View Our Work</button>
-            <button class="btn btn-outline-light fw-semibold">Get In Touch</button>
+            <a href="#contact-form" class="btn btn-outline-light fw-semibold">Get In Touch</a>
         </div>
     </div>
 
@@ -106,8 +106,8 @@
                     about your ideas and challenges.
                 </p>
                 <div class="d-flex gap-3 justify-content-center my-4">
-                    <button class="btn btn-outline-light fw-semibold py-3 px-5" style="background-color: #7c3bed;">Start
-                        a Project</button>
+                    <a href="#contact-form" class="btn btn-outline-light fw-semibold py-3 px-5" style="background-color: #7c3bed;">Start
+                        a Project</a>
                     <button class="btn btn-outline-light fw-semibold text-dark py-3 px-5">View Portfolio</button>
                 </div>
             </div>
@@ -115,6 +115,49 @@
     </section>
 
 
+
+    <section class="contact-us" id="contact-form">
+        <div class="">
+            <div class="container text-center my-5">
+                <h1 class="fw-bold">Get in Touch</h1>
+                <p class="text-secondary fs-5">We'd love to hear from you! Whether you have a question, feedback, or
+                    just <br> want to say hi, feel free to reach out.
+                </p>
+            </div>
+
+            <div>
+                <form class="contact-form bg-white p-4 p-md-5 rounded-4 shadow-sm mx-auto" style="max-width: 800px;">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter the subject" required>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your project ideas..." required></textarea>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn w-100 py-3 fw-semibold" style="background: linear-gradient(90deg, #7c3bed, #a084e8); color: #fff; font-size: 1.1rem;">
+                                <i class="bi bi-send me-2"></i>Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- AOS (Animate On Scroll) -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
