@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Us</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel='stylesheet' type='text/css' media='screen' href='Assets/CSS/style.css'>
+    <!-- <script src='main.js'></script> -->
+</head>
+
+<body>
+
+
+    <section class="contact-us" id="contact-form">
+        <div class="">
+            <div class="container text-center my-5">
+                <h1 class="fw-bold">Get in Touch</h1>
+                <p class="text-secondary fs-5">We'd love to hear from you! Whether you have a question, feedback, or
+                    just <br> want to say hi, feel free to reach out.
+                </p>
+            </div>
+
+            <div>
+                <form class="contact-form bg-white p-4 p-md-5 rounded-4 shadow-sm mx-auto" style="max-width: 800px;">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Enter your first name"
+                                required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Enter your last name"
+                                required>
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email address"
+                                required>
+                        </div>
+                        <div class="col-12">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter the subject"
+                                required>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Tell us about your project ideas..." required></textarea>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <button type="submit" class="btn w-100 py-3 fw-semibold"
+                                style="background: linear-gradient(90deg, #7c3bed, #a084e8); color: #fff; font-size: 1.1rem;">
+                                <i class="bi bi-send me-2"></i>Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
